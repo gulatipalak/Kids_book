@@ -8,39 +8,39 @@ const HeroSection = () => {
     <section className="pt-[120px] pb-[75px] bg-top relative" style={{backgroundImage: "url('../src/assets/img/stars.png')"}}>
       <div className="container">
         <div className='max-w-[920px] mx-auto flex flex-col items-center relative'>
-        <h1 className='font-candal font-normal text-white text-center text-[50px] lg:text-[84px] leading-[108%] -tracking-[4%] pb-11'>Crafting Fairy Tales from Real Life</h1>
-        <Button variant="primary" className='!w-auto'>Create Book</Button>
-        <svg className='hidden lg:block absolute left-0 bottom-0'
-    xmlns="http://www.w3.org/2000/svg"
-    width="137"
-    height="127"
-    fill="none"
-    viewBox="0 0 137 127"
-  >
-    <path
-      stroke="#fff"
-      strokeLinecap="round"
-      strokeWidth="2.8"
-      d="M103.22 2.184c25.299 11.168 42.383 29.41 25.489 57.319C115.696 81 80.214 87.477 63.964 65.388c-3.893-5.292-.764-13.926 3.366-18.23 6.534-6.812 14.77-6.645 22.716-2.039 14.434 8.368 25.364 29.766 15.923 45.417-14.775 24.493-45.22 30.477-71.794 26.243-5.293-.844-43.33-13.688-20.798-13.621 4.09.013 16.326.531 12.244.775-6.768.406-10.588.352-17.303-1.447-1.333-.357-8.038-3.198-6.41.409 3.332 7.383 6.08 14.989 9.586 22.308"
-    ></path>
-  </svg>
-  <svg className='hidden lg:block absolute right-0 bottom-0'
-    xmlns="http://www.w3.org/2000/svg"
-    width="125"
-    height="75"
-    fill="none"
-    viewBox="0 0 125 75"
-  >
-    <path
-      stroke="#fff"
-      strokeLinecap="round"
-      strokeWidth="2.8"
-      d="M123.338 72.823C107.822 53.455 89.67 38.4 66.02 42.254c-8.146 1.328-17.11 4.153-24.083 8.757-3.162 2.088-8.455 6.735-7.518 10.892 1.557 6.902 11.833 1.722 15.428-.339C56.346 57.838 60.2 45.504 56.2 38.99c-7.427-12.093-24.25-19.942-36.414-26.262-4.857-2.523-10.364-4.113-15.04-6.812-1.814-1.048 1.255 3.76 1.58 4.76 1.92 5.902 2.17 5.957-.93-.056-.429-.832-3.88-6.423-3.609-6.893.19-.329 12.334-1.684 13.674-2.207"
-    ></path>
-  </svg>
-      </div>
+            <h1 className='font-candal font-normal text-white text-center text-[50px] lg:text-[84px] leading-[108%] -tracking-[4%] pb-11'>Crafting Fairy Tales from Real Life</h1>
+            <Button variant="primary" className='!w-auto'>Create Book</Button>
+            <svg className='hidden lg:block absolute left-0 bottom-0'
+                xmlns="http://www.w3.org/2000/svg"
+                width="137"
+                height="127"
+                fill="none"
+                viewBox="0 0 137 127"
+            >
+                <path
+                stroke="#fff"
+                strokeLinecap="round"
+                strokeWidth="2.8"
+                d="M103.22 2.184c25.299 11.168 42.383 29.41 25.489 57.319C115.696 81 80.214 87.477 63.964 65.388c-3.893-5.292-.764-13.926 3.366-18.23 6.534-6.812 14.77-6.645 22.716-2.039 14.434 8.368 25.364 29.766 15.923 45.417-14.775 24.493-45.22 30.477-71.794 26.243-5.293-.844-43.33-13.688-20.798-13.621 4.09.013 16.326.531 12.244.775-6.768.406-10.588.352-17.303-1.447-1.333-.357-8.038-3.198-6.41.409 3.332 7.383 6.08 14.989 9.586 22.308"
+                ></path>
+            </svg>
+            <svg className='hidden lg:block absolute right-0 bottom-0'
+                xmlns="http://www.w3.org/2000/svg"
+                width="125"
+                height="75"
+                fill="none"
+                viewBox="0 0 125 75"
+            >
+                <path
+                stroke="#fff"
+                strokeLinecap="round"
+                strokeWidth="2.8"
+                d="M123.338 72.823C107.822 53.455 89.67 38.4 66.02 42.254c-8.146 1.328-17.11 4.153-24.083 8.757-3.162 2.088-8.455 6.735-7.518 10.892 1.557 6.902 11.833 1.722 15.428-.339C56.346 57.838 60.2 45.504 56.2 38.99c-7.427-12.093-24.25-19.942-36.414-26.262-4.857-2.523-10.364-4.113-15.04-6.812-1.814-1.048 1.255 3.76 1.58 4.76 1.92 5.902 2.17 5.957-.93-.056-.429-.832-3.88-6.423-3.609-6.893.19-.329 12.334-1.684 13.674-2.207"
+                ></path>
+            </svg>
+        </div>
       <div className='flex flex-col lg:flex-row  justify-between mt-[18px]'>
-        <div className='w-full lg:w-[347px] lg:max-w-[347px] lg:order-2 mb-9 lg:mb-0'>
+            <div className='w-full lg:w-[347px] lg:max-w-[347px] lg:order-2 mb-9 lg:mb-0'>
            <div className='relative'>
              <div className='flex gap-6 items-center mb-6'>
                 <img src="../src/assets/img/dummy-2.png" alt="image" className='shrink-0' width="74px" height="74px"/>
@@ -71,21 +71,20 @@ const HeroSection = () => {
                 Regenerate Story
             </button>
             <svg className='hidden lg:block absolute right-0 bottom-0'
-    xmlns="http://www.w3.org/2000/svg"
-    width="52"
-    height="46"
-    fill="none"
-    viewBox="0 0 52 46"
-  >
-    <path
-      fill="#EBEBEB"
-      d="M2.107 36.674a1 1 0 0 0-1.294 1.524zM42.032.588a1 1 0 0 0-1.046.952l-.422 8.99a1 1 0 1 0 1.998.094l.375-7.991 7.991.375a1 1 0 1 0 .094-1.998zM1.46 37.436l-.647.762c13.27 11.267 29.01 7.657 38.74-1.52 4.863-4.589 8.288-10.614 9.18-16.966.898-6.38-.77-13.043-6.009-18.798l-.74.673-.739.673c4.826 5.301 6.325 11.364 5.508 17.173-.82 5.837-3.987 11.464-8.573 15.79-9.17 8.65-23.756 11.908-36.073 1.45z"
-    ></path>
-  </svg>
+                xmlns="http://www.w3.org/2000/svg"
+                width="52"
+                height="46"
+                fill="none"
+                viewBox="0 0 52 46"
+            >
+                <path
+                fill="#EBEBEB"
+                d="M2.107 36.674a1 1 0 0 0-1.294 1.524zM42.032.588a1 1 0 0 0-1.046.952l-.422 8.99a1 1 0 1 0 1.998.094l.375-7.991 7.991.375a1 1 0 1 0 .094-1.998zM1.46 37.436l-.647.762c13.27 11.267 29.01 7.657 38.74-1.52 4.863-4.589 8.288-10.614 9.18-16.966.898-6.38-.77-13.043-6.009-18.798l-.74.673-.739.673c4.826 5.301 6.325 11.364 5.508 17.173-.82 5.837-3.987 11.464-8.573 15.79-9.17 8.65-23.756 11.908-36.073 1.45z"
+                ></path>
+            </svg>
         </div>
            </div>
-      </div>
-        <div className='w-full lg:w-[340px] lg:max-w-[340px] max-w-[100%] lg:order-1'>
+           <div className='w-full lg:w-[340px] lg:max-w-[340px] max-w-[100%] lg:order-1'>
             <div className='flex items-center gap-3 mb-6'>
                 <h2 className='font-poppins font-bold text-[26px] text-white'>Process</h2>
                 <ChevronDown/>
@@ -98,8 +97,8 @@ const HeroSection = () => {
             </div>
             
         </div>
+      </div>
         
-      
       </div>
       
       <img src="../src/assets/img/LeftSideWave.png" className="absolute left-0 bottom-[20%] z-[-1]" alt="wave"/>
