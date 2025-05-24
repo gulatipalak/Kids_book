@@ -1,5 +1,5 @@
-import SectionHeading from './SectionHeading'
-import Button from './Button'
+import Button from "../atoms/Button"
+import SectionHeading from "../atoms/SectionHeading"
 
 const WhyWeStarted = () => {
   return (

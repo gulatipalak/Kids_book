@@ -1,9 +1,9 @@
-import BrandLogo from "./BrandLogo";
-import NavItems from "./NavItems";
+import BrandLogo from "../atoms/BrandLogo";
+import NavItems from "../atoms/NavItems";
 
 const Footer = () => {
     return (
-        <footer className="bg-secondary py-[36px]">
+        <footer className="bg-secondary b py-[36px]">
             <div className="container">
                 <div className="flex items-center gap-5 lg:gap-6 flex-col lg:flex-row justify-items-center md:justify-between">
                     <BrandLogo/>

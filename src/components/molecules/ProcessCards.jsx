@@ -1,4 +1,4 @@
-import NumberBadge from "./NumberBadge"
+import NumberBadge from "../atoms/NumberBadge"
 
 const ProcessCards = ({count, heading, description}) => {
   return (

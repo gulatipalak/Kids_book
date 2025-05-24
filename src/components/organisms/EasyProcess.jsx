@@ -1,6 +1,5 @@
-import React from 'react'
-import SectionHeading from './SectionHeading'
-import ProcessCards from './ProcessCards'
+import SectionHeading from '../atoms/SectionHeading'
+import ProcessCards from '../molecules/ProcessCards'
 
 const data = [
     {

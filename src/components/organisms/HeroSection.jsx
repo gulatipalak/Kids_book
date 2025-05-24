@@ -1,6 +1,6 @@
-import Button from './Button'
-import ChevronDown from '../assets/icons/ChevronDown'
-import ProcessListCard from './ProcessListCard'
+import Button from '../atoms/Button'
+import ChevronDown from '../../assets/icons/ChevronDown'
+import ProcessListCard from '../molecules/ProcessListCard'
 
 
 const HeroSection = () => {
@@ -91,9 +91,9 @@ const HeroSection = () => {
             </div>
             
             <div className='space-y-3'>
-                <ProcessListCard countBoxColor="[#C96ADB]" countColor="brand-white" count={1} title="Share Your Story"/>
-                <ProcessListCard countBoxColor="green" countColor="primary" count={2} title="We Bring it To Life"/>
-                <ProcessListCard countBoxColor="[#0CA9F6]" countColor="brand-white" count={3} title="We Deliver it to You"/>
+                <ProcessListCard countColor="brand-white" count={1} title="Share Your Story" className="bg-[#C96ADB]"/>
+                <ProcessListCard countColor="primary" count={2} title="We Bring it To Life" className="bg-green"/>
+                <ProcessListCard countColor="brand-white" count={3} title="We Deliver it to You" className="bg-[#0CA9F6]"/>
             </div>
             
         </div>

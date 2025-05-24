@@ -1,9 +1,9 @@
-import SectionHeading from './SectionHeading'
-import FaqAccordion from './FaqAccordion'
+import FaqAccordion from "../atoms/FaqAccordion"
+import SectionHeading from "../atoms/SectionHeading"
 
 const FAQ = () => {
   return (
-    <div className='bg-primary pt-[124px] pb-[62px]'>
+    <section className='bg-primary pt-[124px] pb-[62px]'>
         <div className="container">
             <SectionHeading text="Frequently Asked Questions" className="max-w-[652px] mx-auto text-center leading-[1.08] mb-[84px]"/>
             <FaqAccordion title="1. How personalized is a Once Upon My Story book?">
@@ -50,7 +50,7 @@ const FAQ = () => {
             </FaqAccordion>
         </div>
         
-    </div>
+    </section>
   )
 }
 

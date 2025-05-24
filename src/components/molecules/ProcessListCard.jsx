@@ -1,10 +1,7 @@
-import React from 'react'
-import ArrowUp from '../assets/icons/ArrowUp'
-
-const ProcessListCard = ({countBoxColor,count,title,countColor}) => {
+const ProcessListCard = ({count,title,countColor,className}) => {
   return (
     <div className='flex items-center gap-5 group hover:bg-[#ffffff1a] rounded-[24px] py-2 pl-2 pr-[18px] transition-all duration-300'>
-        <div className={`size-[72px] bg-${countBoxColor} text-${countColor} flex items-center justify-center rounded-[18px] shrink-0`}>
+        <div className={`size-[72px] text-${countColor} flex items-center justify-center rounded-[18px] shrink-0 ${className}`}>
             <span className='font-poppins font-semibold text-[32px]'>{count}</span>
         </div>
         <div className='flex items-center justify-between w-full gap-3'>

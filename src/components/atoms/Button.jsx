@@ -1,5 +1,5 @@
 import { clsx } from "clsx";
-import ArrowUp from "../assets/icons/ArrowUp";
+import ArrowUp from "../../assets/icons/ArrowUp";
 
 const Button = ({
     children,

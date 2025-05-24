@@ -1,18 +1,18 @@
-import EasyProcess from "./components/EasyProcess"
-import FAQ from "./components/FAQ"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import HeroSection from "./components/HeroSection"
-import HowItWorks from "./components/HowItWorks"
-import IncludedInBook from "./components/IncludedInBook"
-import WhyWeStarted from "./components/WhyWeStarted"
+import Footer from "./components/molecules/Footer"
+import Header from "./components/molecules/Header"
+import EasyProcess from "./components/organisms/EasyProcess"
+import FAQ from "./components/organisms/FAQ"
+import HeroSection from "./components/organisms/HeroSection"
+import HowItWorks from "./components/organisms/HowItWorks"
+import IncludedInBook from "./components/organisms/IncludedInBook"
+import WhyWeStarted from "./components/organisms/WhyWeStarted"
 
 function App() {
 
   return (
-    <>
-      <Header/>
-      <main>
+    <div className="flex flex-col">
+        <Header/>
+      <main className="flex-1 basis-[100dvh]">
         <HeroSection/>
         <EasyProcess/>
         <WhyWeStarted/>
@@ -21,7 +21,7 @@ function App() {
         <IncludedInBook/>
       </main>
       <Footer/>
-    </>
+    </div>
   )
 }
 

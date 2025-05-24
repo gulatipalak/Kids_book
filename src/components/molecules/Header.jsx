@@ -1,7 +1,7 @@
 import { useState } from "react";
-import BrandLogo from "./BrandLogo";
-import Button from "./Button";
-import NavItems from "./NavItems";
+import BrandLogo from "../atoms/BrandLogo";
+import Button from "../atoms/Button";
+import NavItems from "../atoms/NavItems";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

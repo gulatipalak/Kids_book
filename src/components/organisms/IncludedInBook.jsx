@@ -1,6 +1,6 @@
-import NumberBadge from './NumberBadge';
-import SectionHeading from './SectionHeading';
-import Button from './Button';
+import Button from "../atoms/Button";
+import NumberBadge from "../atoms/NumberBadge";
+import SectionHeading from "../atoms/SectionHeading";
 
 const data = [
   {
