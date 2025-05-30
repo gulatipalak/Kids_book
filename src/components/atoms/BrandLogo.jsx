@@ -1,7 +1,9 @@
+import logo from "../../assets/img/logo.png";
+
 const BrandLogo = ({w ='168px'}) => {
     return(
         <a href="/" className="inline-block">
-          <img src="../src/assets/img/logo.png" width={w} alt="brand-logo" />
+          <img src={logo} width={w} alt="brand-logo" />
         </a>
     );
 }

@@ -1,13 +1,13 @@
 import Button from "../atoms/Button"
 import SectionHeading from "../atoms/SectionHeading"
-
+import dummy_img from "../../assets/img/dummy-1.png"
 const WhyWeStarted = () => {
   return (
     <section className='bg-primary py-[81px]'>
         <div className="container">
             <div className="flex flex-col lg:flex-row gap-10">
                 <div className="lg:w-[40%] shrink-0 flex justify-center lg:block">
-                    <img src="../src/assets/img/dummy-1.png" alt="image"/>
+                    <img src={dummy_img} alt="image"/>
                 </div>
                 <div className="lg:w-[60%]">
                     <SectionHeading text="Why we started Once Upon My Story?" className="pb-11 leading-[1.08] lg:mt-[26px]"/>

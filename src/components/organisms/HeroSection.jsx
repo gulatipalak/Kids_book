@@ -1,7 +1,9 @@
 import Button from '../atoms/Button'
 import ChevronDown from '../../assets/icons/ChevronDown'
 import ProcessListCard from '../molecules/ProcessListCard'
-
+import dummy from "../../assets/img/dummy-2.png"
+import leftWave from "../../assets/img/LeftSideWave.png"
+import rightWave from "../../assets/img/RightSideWave.png"
 
 const HeroSection = () => {
   return (
@@ -43,7 +45,7 @@ const HeroSection = () => {
             <div className='w-full lg:w-[347px] lg:max-w-[347px] lg:order-2 mb-9 lg:mb-0'>
            <div className='relative'>
              <div className='flex gap-6 items-center mb-6'>
-                <img src="../src/assets/img/dummy-2.png" alt="image" className='shrink-0' width="74px" height="74px"/>
+                <img src={dummy} alt="image" className='shrink-0' width="74px" height="74px"/>
                 <h2 className='font-poppins font-semibold text-[26px] text-white'>
                     Adventure Awaits
                 </h2>
@@ -101,8 +103,8 @@ const HeroSection = () => {
         
       </div>
       
-      <img src="../src/assets/img/LeftSideWave.png" className="absolute left-0 bottom-[20%] z-[-1]" alt="wave"/>
-      <img src="../src/assets/img/RightSideWave.png" className="absolute right-0 bottom-[20%] z-[-1]" alt="wave"/>
+      <img src={leftWave} className="absolute left-0 bottom-[20%] z-[-1]" alt="wave"/>
+      <img src={rightWave} className="absolute right-0 bottom-[20%] z-[-1]" alt="wave"/>
     </section>
   )
 }

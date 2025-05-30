@@ -1,4 +1,7 @@
 import SectionHeading from "../atoms/SectionHeading";
+import how_it_works_1 from "../../assets/img/how-it-works-1.png";
+import how_it_works_2 from "../../assets/img/how-it-works-2.png";
+import how_it_works_3 from "../../assets/img/how-it-works-3.png";
 
 
 const HowItWorks = () => {
@@ -22,8 +25,8 @@ const HowItWorks = () => {
                             d="M58.15 4.19C31.283-2.368 6.621 1.688 3.013 34.11c-2.78 24.977 21.41 51.73 47.754 44.116 6.312-1.824 9.09-10.577 8.438-16.507-1.03-9.382-7.664-14.267-16.77-15.456-16.544-2.16-38.25 8.148-40.299 26.312-3.207 28.423 17.288 51.717 40.94 64.551 4.712 2.557 42.7 15.547 24.791 1.872-3.25-2.482-13.269-9.527-10.18-6.845 5.119 4.445 8.18 6.73 14.6 9.394 1.276.529 8.324 2.362 4.836 4.23-7.142 3.825-13.955 8.182-21.195 11.849"
                             ></path>
                         </svg>
-                            <img src="../src/assets/img/how-it-works-1.png" alt="how-it-works"/>
-                            <img src="../src/assets/img/how-it-works-2.png" alt="how-it-works"/>
+                            <img src={how_it_works_1} alt="how-it-works"/>
+                            <img src={how_it_works_2} alt="how-it-works"/>
                         <svg className="hidden lg:block absolute right-[-13%] bottom-[21%]"
                             xmlns="http://www.w3.org/2000/svg"
                             width="95"
@@ -40,7 +43,7 @@ const HowItWorks = () => {
                         </svg>
                     </div>
                     <div className="place-items-center">
-                        <img src="../src/assets/img/how-it-works-3.png" alt="how-it-works"/>
+                        <img src={how_it_works_3} alt="how-it-works"/>
                     </div>
                 </div>  
             </div>
